@@ -79,3 +79,121 @@ x = input()
 y = input()
 z = int(x) + int(y)
 print(z)
+my_boolean = True
+print(my_boolean)
+print(2 == 3)
+print("hello" == "hello")
+print(1 != 1)
+print("eleven" != "seven")
+print(2 != 10)
+print(7 > 5)
+print(10 < 10)
+print(11.0 > 11)
+print(7 <= 8)
+print(9 >= 9.0)
+print("Annie" > "Andy")
+if 10 > 5:
+    print("10 greater than 5")
+print("Program ended")
+
+num = 12
+if num > 5:
+    print("Bigger than 5")
+    if num <= 47:
+        print("Between 5 and 47")
+x = 4
+if x == 5:
+    print("Yes")
+else:
+    print("No")
+num = 3
+if num == 1:
+    print("one")
+else:
+    if num == 2:
+        print("two")
+    else:
+        if num == 3:
+            print("three")
+        else:
+            print("something else")
+num = 3
+if num == 1:
+    print("one")
+elif num == 2:
+    print("two")
+elif num == 3:
+    print("three")
+else:
+    print("something else")
+print(1 == 1 and 2 == 2)
+print(1 == 1 and 2 == 3)
+print(1 != 1 and 2 == 2)
+print(2 < 1 and 3 > 6)
+print(1 == 1 or 2 == 2)
+print(1 == 1 or 2 == 3)
+print(1 != 1 or 2 == 2)
+print(2 < 2 or 3 > 6)
+print(not 1 == 7)
+print(not 1 > 7)
+print(False == False or True)
+print(False == (False or True))
+print((False == False) or True)
+grade = 88
+if (grade >= 70 and grade <= 100):
+    print("passed")
+grade = 88
+if (70 <= grade <= 100):
+    print("passed")
+words = ["hello", "word", "!"]
+print(words[0])
+print(words[1])
+print(words[2])
+empty_list = []
+print(empty_list)
+number = 3
+things = ["string", 0, [1, 2, number], 4.56]
+print(things[1])
+print(things[2])
+print(things[2][2])
+m = [
+    [1, 2, 3],
+    [4, 5, 6]
+]
+print(m[1][2])
+str = "hello world"
+print(str[6])
+nums = [7, 7, 7, 7, 7]
+nums[2] = 5
+print(nums)
+nums = [1, 2, 3]
+print(nums + [4, 5, 6])
+print(nums * 3)
+words = ["spam", "egg", "spam", "sausage"]
+print("spam" in words)
+print("egg" in words)
+print("tomato" in words)
+nums = [1, 2, 3]
+print(not 4 in nums)
+print(4 not in nums)
+print(not 3 in nums)
+print(3 not in nums)
+nums = [1, 2, 3]
+nums.append(4)
+print(nums)
+nums = [1, 3, 5, 2, 4]
+print(len(nums))
+words = ['Python', 'fun']
+index = 1
+words.insert(index, 'is')
+print(words)
+letters = ['p', 'q', 'r', 's', 'p', 'u']
+print(letters.index('r'))
+print(letters.index('p'))
+print(letters.index('z'))
+i = 1
+while i <= 5:
+    print(i)
+    i = i + 1
+
+print('Finished')
