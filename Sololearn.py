@@ -49,3 +49,33 @@ x = input()
 print(x)
 name = input("Enter your name: ")
 print("Hello, "+name)
+age = int(input())
+print(age)
+age = 42
+print("His age is " + str(age))
+x = "2"
+y = "4"
+z = int(x) + int(y)
+print(z)
+name = input()
+age = input()
+print(name + " is " + age)
+x = 2
+print(x)
+x += 3
+print(x)
+x = 4
+x *= 3
+print(x)
+x = "spam "
+print(x)
+x += "eggs"
+print(x)
+spam = "7"
+spam = spam + "0"
+eggs = int(spam) + 3
+print(float(eggs))
+x = input()
+y = input()
+z = int(x) + int(y)
+print(z)
