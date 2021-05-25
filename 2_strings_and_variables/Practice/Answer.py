@@ -3,3 +3,12 @@
 print('I\'m learning Python!')
 print("A number enclosed in double quotes: \"42\"")
 ########################
+
+########################
+# Решение задачи 10.2 'Больше строк':
+print('A \nB \nC \nD')
+print("""A 
+B 
+C 
+D""")
+########################
