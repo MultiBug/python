@@ -7,6 +7,6 @@ user = "James"
 ####################################
 # 12.2 Имена переменных
 this_is_a_normal_name = 7
-123abc = 7
-#SyntaxError: invalid syntax
+# 123abc = 7
+# SyntaxError: invalid syntax
 ####################################
