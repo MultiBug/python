@@ -3,8 +3,9 @@
 money = int(input())
 price = int(input())
 x = price*10
-if money <= money + price:
-    if money >= x:
-        y = money % x
+y = money%x
+if money >= x:
     print(y)
+if money < x:
+    print()
 ########################
