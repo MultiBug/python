@@ -69,3 +69,17 @@ elif (age >= 18 and age <=64):
 elif age >= 65:
     print('Senior')
 ########################
+########################
+# Решение задачи 23.2 'Скидка на обучение':
+sem1_score = int(input())
+sem2_score = int(input())
+avg = int((sem1_score + sem2_score) // 2)
+if (avg >= 90 and avg <= 100):
+    print(50)
+elif (avg >= 80 and avg <= 89):
+    print(30)
+elif (avg >= 70 and avg <= 79):
+    print(10)
+elif (avg >= 0 and avg <= 69):
+    print(0)
+########################
