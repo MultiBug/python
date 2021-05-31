@@ -83,3 +83,31 @@ elif (avg >= 70 and avg <= 79):
 elif (avg >= 0 and avg <= 69):
     print(0)
 ########################
+########################
+# Решение задачи 24.2 'Автомат с фруктами':
+fruits = ["apple", "cherry", "banana", "kiwi", "lemon", "pear", "peach", "avocado"]
+n = int(input())
+if n == 0:
+    print(fruits[0])
+elif n == 1:
+    print(fruits[1])
+elif n == 2:
+    print(fruits[2])
+elif n == 3:
+    print(fruits[3])
+elif n == 4:
+    print(fruits[4])
+elif n == 5:
+    print(fruits[5])
+elif n == 6:
+    print(fruits[6])
+elif n == 7:
+    print(fruits[7])
+elif (n < 0 or  n > 7):
+    print('Wrong number')
+########################
+########################
+# Решение задачи 24.4 'Каждый третий знак':
+text = input()
+print(text[2])
+########################
