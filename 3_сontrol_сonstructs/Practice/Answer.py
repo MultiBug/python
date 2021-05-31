@@ -52,5 +52,20 @@ elif int(number) == 0:
 # Решение задачи 22.1 'Магазин закрыт!':
 hour = int(input())
 day = int(input())
-
+if (hour >= 10 and hour <= 21) and (day >=1 and day <= 5):
+    print('Open')
+elif (hour < 10 and hour > 21) or (day >= 6 or day <= 0):
+    print('Closed')
+########################
+########################
+# Решение задачи 22.3 'Возрастные группы':
+age = int(input())
+if (age >= 0 and age <=11):
+    print('Child')
+elif (age >= 12 and age <=17):
+    print('Teen')
+elif (age >= 18 and age <=64):
+    print('Adult')
+elif age >= 65:
+    print('Senior')
 ########################
