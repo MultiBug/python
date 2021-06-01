@@ -200,5 +200,11 @@ sum = 0
 for x in list:
     sum += x
 print(sum)
-
+########################
+########################
+# Решение задачи 29.4 'Выбор даты':
+a = int(input())
+b = int(input())
+date = list(range(a, b))
+print(date)
 ########################
