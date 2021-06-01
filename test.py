@@ -1,10 +1,5 @@
-items = [23, 555, 666, 123, 128, 4242, 990]
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 sum = 0
-n = 0
-while n < len(items):
-    num = items[n]
-    n += 1
-    if num % 2 != 0:
-        continue
-    sum += n
+for x in list:
+    sum += x
 print(sum)
