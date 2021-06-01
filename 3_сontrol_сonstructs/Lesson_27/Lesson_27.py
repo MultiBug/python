@@ -17,8 +17,21 @@ while x < 10:
 x += 1
 ####################################
 # 27.3 Циклы while
-
+i = 0
+while True:
+    print(i)
+    i = i + 1
+    if i >= 5:
+        print("Breaking")
+        break
+print("Finished")
 ####################################
-# 27.4 Циклы while
-
+# 27.4 Оператор continue
+i = 1
+while i <= 5:
+  print(i)
+  i += 1
+  if i == 3:
+    print("Skipping 3")
+    continue
 ####################################
