@@ -26,3 +26,12 @@ def area(length, width):
         print('Square')
 area(length, width)
 ########################
+########################
+# Решение задачи 35.2 'Генератор хештегов':
+s = input()
+def hashtagGen(s):
+    s1 = s.replace(" ", '')
+    print("#" + s1)
+    return s1
+hashtagGen(s)
+########################
