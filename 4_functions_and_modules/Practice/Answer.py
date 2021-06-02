@@ -63,3 +63,16 @@ def area():
 print("Perimeter:", round(perim(), 2))
 print("Area:", round(area(), 2))
 ########################
+########################
+# Решение задачи 41 'Конвертер градусов Цельсия в градусы Фаренгейта':
+c = int(input())
+
+
+def conv(c):
+    f = 9/5*c+32
+    return f
+
+
+fahrenheit = conv(c)
+print(fahrenheit)
+########################
