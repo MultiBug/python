@@ -35,3 +35,31 @@ def hashtagGen(s):
     return s1
 hashtagGen(s)
 ########################
+########################
+# Решение задачи 38.1 'Нет игральной кости? Не проблема!':
+import random
+random.seed(int(input()))
+dice1 = random.randint(1, 6)
+dice2 = random.randint(1, 6)
+print(dice1)
+print(dice2)
+########################
+########################
+# Решение задачи 38.2 'Измерение окружности':
+from math import pi
+r = int(input())
+
+
+def perim():
+    l = 2*pi*r
+    return l
+
+
+def area():
+    s = r * pi
+    return s
+
+
+print("Perimeter:", round(perim(), 2))
+print("Area:", round(area(), 2))
+########################
