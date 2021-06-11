@@ -24,5 +24,12 @@ finally:
 ########################
 ########################
 # Решение задачи 48.4 'С новой строки':
-
+names = ["John", "Oscar", "Jacob"]
+file = open("names.txt", "w+")
+print(names[0])
+print(names[1])
+print(names[2])
+file.close()
+file = open("names.txt", "r")
+file.close()
 ########################
