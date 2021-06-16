@@ -1,4 +1,3 @@
-x = input()
-elements = x.split()
-print(elements[-1])
-# место для вашего кода
+name = input()
+age = int(input())
+print(name, 'is', age, 'years old')
