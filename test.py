@@ -1,6 +1,4 @@
-import math
-
-p1 = (23, -88)
-p2 = (6, 42)
-
+x = input()
+elements = x.split()
+print(elements[-1])
 # место для вашего кода
