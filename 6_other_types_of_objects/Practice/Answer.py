@@ -57,3 +57,19 @@ print(name, 'is', age, 'years old')
 txt = input()
 print(txt.replace("#", " "))
 ########################
+########################
+# Решение задачи 61.3 'Сколько слов?':
+txt = input()
+a = txt.split()
+print(len(a))
+########################
+########################
+# Решение задачи 63 'Самое длинное слово':
+txt = input()
+a = txt.split()
+best = 0
+for index in range(len(a)):
+    if len(a[index]) > len(a[best]):
+        best = index
+print(a[best])
+########################
