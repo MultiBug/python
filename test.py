@@ -1,2 +1,10 @@
-nums = (55,44,33,22)
-print(max(min(nums[:2]), abs(-42)))
+def test(func, arg):
+    return func(func(arg))
+
+
+def mult(x):
+    return x*x
+
+
+print(test(mult, 2))
+
